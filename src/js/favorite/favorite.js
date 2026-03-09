@@ -1,0 +1,21 @@
+import { markupText } from './markup-text';
+import {markupList} from './markup-list';
+import { getLocalFavorites } from '../utils/localStor';
+
+
+
+
+export function addContent() {
+
+  getLocalFavorites()
+
+  const favorites = JSON.parse(localStorage.getItem('favorites'));
+
+
+  if (!favorites?.length) {
+    markupText();
+    return;
+  }
+  markupList(favorites);
+}
+
