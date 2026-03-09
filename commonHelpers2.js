@@ -1,2 +1,2 @@
-import{i as e,a,_ as o}from"./assets/applyAssets-7b23671c.js";e().then(()=>(a(),o(()=>import("./assets/main-500984d9.js"),["assets/main-500984d9.js","assets/exercises-right-part-filter-b16be917.js","assets/vendor-f93ed741.js"]))).catch(r=>console.error("render error:",r));
+import{i as e,a,_ as o}from"./assets/applyAssets-83809cc8.js";e().then(()=>(a(),o(()=>import("./assets/main-f2d8da46.js"),["assets/main-f2d8da46.js","assets/exercises-right-part-filter-3bc433af.js","assets/applyAssets-83809cc8.js","assets/applyAssets-7cb07713.css","assets/vendor-f93ed741.js"]))).catch(r=>console.error("render error:",r));
 //# sourceMappingURL=commonHelpers2.js.map
