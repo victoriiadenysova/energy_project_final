@@ -1,2 +1,2 @@
-import{i as e,a,_ as o}from"./assets/applyAssets-85d2affc.js";e().then(()=>(a(),o(()=>import("./assets/favorites-5672b8c8.js"),["assets/favorites-5672b8c8.js","assets/exercises-right-part-filter-23746523.js","assets/applyAssets-85d2affc.js","assets/applyAssets-46aa5c7a.css","assets/vendor-f93ed741.js"]))).catch(r=>console.error("render-favorites error:",r));
+import{i as e,a,_ as o}from"./assets/applyAssets-da72c5cd.js";e().then(()=>(a(),o(()=>import("./assets/favorites-36de529c.js"),["assets/favorites-36de529c.js","assets/exercises-right-part-filter-9658b708.js","assets/applyAssets-da72c5cd.js","assets/applyAssets-b3ab13f8.css","assets/vendor-f93ed741.js"]))).catch(r=>console.error("render-favorites error:",r));
 //# sourceMappingURL=commonHelpers.js.map
