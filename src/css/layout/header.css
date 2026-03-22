@@ -11,13 +11,29 @@
   justify-content: center;
   align-items: center;
 }
+/* Розкидаємо логотип і бургер по краях */
 .container-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+}
 
-  min-width: 335px;
-  padding: 20px;
+
+/* Планшетна та десктопна версії (від 768px і більше) */
+@media screen and (min-width: 768px) {
+  /* Додаємо ID для максимальної ваги селектора */
+  #header .container-header .burger-button,
+  .burger-button#burger-menu-open {
+    display: none !important;
+  }
+  
+  .page-navigattion {
+    display: flex; 
+  }
+  .social-links {
+    display: flex; 
+  }
 }
 .active {
   background-color: var(--primary-color);
